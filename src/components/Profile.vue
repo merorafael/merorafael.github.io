@@ -1,23 +1,30 @@
 <template>
-    <div id="profile" class="row align-items-center">
-        <div class="col-sm-6">
-            <identifier></identifier>
+    <div id="profile">
+        <div class="row align-items-center header">
+          <div class="col-sm-6">
+              <identifier></identifier>
+          </div>
+          <div class="col-sm-6 text-right">
+              <social></social>
+          </div>
         </div>
-        <div class="col-sm-6 text-right">
-            <social></social>
-        </div>
+        <certificatons></certificatons>
+        <jobs></jobs>
     </div>
 </template>
 <script>
-    import Social from "./Profile/Social";
-    import Identifier from "./Profile/Identifier";
+    import Social from "@/components/Profile/Social";
+    import Identifier from "@/components/Profile/Identifier";
+    import Certificatons from "@/components/Profile/Certifications";
+    import Jobs from "@/components/Profile/Jobs";
+
     export default {
         name: "profile",
-        components: {Identifier, Social}
+        components: {Jobs, Certificatons, Identifier, Social}
     }
 </script>
 <style scoped>
-    #profile {
-        margin: 20px 0;
+    .header {
+      margin: 20px 0;
     }
 </style>
