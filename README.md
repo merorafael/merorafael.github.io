@@ -1,6 +1,6 @@
-# merorafael.github.io
+# merorafael.info
 
-> Portfolio Project
+> Portfolio project hosted on AWS S3.
 
 ## Build Setup
 
