@@ -2,7 +2,7 @@
     <div class="row align-items-center">
         <div class="col-auto">
             <img id="avatar"
-                 src="https://pt.gravatar.com/userimage/45329789/184585da111cd6efe45ee09852886185.jpg?size=130"
+                 src="https://s.gravatar.com/avatar/d45ef13797ff2309c54de18a332a0eef?s=130"
                  alt="Avatar" class="rounded-circle">
         </div>
         <div class="col">
