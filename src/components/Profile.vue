@@ -13,14 +13,14 @@
     </div>
 </template>
 <script>
-    import Social from "@/components/Profile/Social";
-    import Identifier from "@/components/Profile/Identifier";
-    import Certificatons from "@/components/Profile/Certifications";
-    import Jobs from "@/components/Profile/Jobs";
+    import Certificatons from "./Profile/Certifications";
+    import Jobs from "./Profile/Jobs";
+    import Social from "./Profile/Social";
+    import Identifier from "./Profile/Identifier";
 
     export default {
-        name: "profile",
-        components: {Jobs, Certificatons, Identifier, Social}
+      name: "profile",
+      components: {Identifier, Social, Jobs, Certificatons},
     }
 </script>
 <style scoped>

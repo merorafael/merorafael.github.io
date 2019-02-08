@@ -1,13 +1,16 @@
 <template>
   <div id="app">
     <div class="container">
-      <router-view/>
+      <profile></profile>
     </div>
   </div>
 </template>
 <script>
+  import Profile from "./components/Profile";
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {Profile}
   }
 </script>
 <style>
