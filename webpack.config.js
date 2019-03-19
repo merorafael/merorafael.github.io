@@ -1,5 +1,6 @@
-var path = require('path')
-var webpack = require('webpack')
+const path = require('path');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
@@ -12,10 +13,19 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          'vue-style-loader',
-          'css-loader'
-        ],
+        use: (process.env.NODE_ENV === 'production')
+          ? ExtractTextPlugin.extract({
+              use: [
+                { loader: 'css-loader', options: { sourceMap: true }},
+                { loader: 'postcss-loader', options: { sourceMap: true }},
+              ],
+              fallback: 'vue-style-loader'
+            })
+          : [
+            { loader: 'vue-style-loader'},
+            { loader: 'css-loader', options: { sourceMap: true }},
+            { loader: 'postcss-loader', options: { sourceMap: true }},
+          ],
       },      {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -73,6 +83,10 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
+    }),
+    new ExtractTextPlugin({
+      filename: 'build.css',
+      allChunks: true,
     })
   ])
 }
