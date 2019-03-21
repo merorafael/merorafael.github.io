@@ -1,0 +1,56 @@
+[
+  {
+    "company": {
+      "name": "B2W Digital",
+      "logo": "@/assets/images/companies/b2w.png"
+    },
+    "jobs": [
+      {
+        "job": "Team Leader",
+        "description": "",
+        "startDate": "06/2018",
+        "endDate": null
+      },
+      {
+        "job": "Software Developer",
+        "description": "",
+        "startDate": "01/2017",
+        "endDate": "06/2018"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Fidelize",
+      "logo": "@/assets/images/companies/fidelize.png"
+    },
+    "jobs": [
+      {
+        "job": "Senior Software Developer",
+        "description": "",
+        "startDate": "05/2016",
+        "endDate": "12/2016"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Zoox Media & Connectivy",
+      "logo": "@/assets/images/companies/zoox.png"
+    },
+    "jobs": [
+      {
+        "job": "Development Coordinator",
+        "description": "",
+        "startDate": "11/2014",
+        "endDate": "05/2016"
+      },
+      {
+        "job": "Software Developer",
+        "description": "",
+        "startDate": "09/2011",
+        "endDate": "11/2014"
+      }
+    ]
+  }
+]

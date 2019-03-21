@@ -13,13 +13,9 @@
     "bootstrap": "^4.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "moment": "^2.22.2",
-    "vue": "^2.5.11"
+    "vue": "^2.5.11",
+    "vue-router": "^3.0.2"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -27,6 +23,8 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
+    "eslint": "^5.15.3",
+    "eslint-plugin-vue": "^5.2.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
     "postcss-import": "^12.0.1",

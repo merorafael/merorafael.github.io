@@ -1,0 +1,12 @@
+[
+  {
+    "name": "iMasters PHP Certified Professional",
+    "icon": "@/assets/images/certifications/imasters_php.png",
+    "url": "https://certificacao.imasters.com.br/users/rafael-mello"
+  },
+  {
+    "name": "Symfony Documentation Contributor",
+    "icon": "@/assets/images/certifications/symfony_doc.png",
+    "url": "https://connect.sensiolabs.com/profile/merorafael"
+  }
+]

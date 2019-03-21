@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
-      <profile></profile>
-    </div>
+    <router-view/>
   </div>
 </template>
 <script>
