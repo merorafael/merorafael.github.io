@@ -2,7 +2,7 @@
   {
     "company": {
       "name": "B2W Digital",
-      "logo": "@/assets/images/companies/b2w.png"
+      "logo": "/static/images/companies/b2w.png"
     },
     "jobs": [
       {
@@ -22,7 +22,7 @@
   {
     "company": {
       "name": "Fidelize",
-      "logo": "@/assets/images/companies/fidelize.png"
+      "logo": "/static/images/companies/fidelize.png"
     },
     "jobs": [
       {
@@ -36,7 +36,7 @@
   {
     "company": {
       "name": "Zoox Media & Connectivy",
-      "logo": "@/assets/images/companies/zoox.png"
+      "logo": "/static/images/companies/zoox.png"
     },
     "jobs": [
       {

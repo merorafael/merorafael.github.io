@@ -13,10 +13,15 @@
     import profiles from '@/assets/data/social_profiles.json';
 
     export default {
-        data: function() {
+        data() {
             return {
-                profiles: profiles
+                profiles: []
             };
+        },
+        created() {
+            if (profiles instanceof Array) {
+                this.profiles = profiles;
+            }
         }
     }
 </script>

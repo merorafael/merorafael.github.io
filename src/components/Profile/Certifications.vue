@@ -18,23 +18,19 @@
 </template>
 
 <script>
+    import certifications from "@/assets/data/certifications";
+
     export default {
         name: "certificatons",
-        data: function() {
+        data() {
             return {
-                certifications: [
-                    {
-                        name: 'iMasters PHP Certified Professional',
-                        icon: '/static/images/certifications/imasters_php.png',
-                        url: 'https://certificacao.imasters.com.br/users/rafael-mello'
-                    },
-                    {
-                        name: 'Symfony Documentation Contributor',
-                        icon: '/static/images/certifications/symfony_doc.png',
-                        url: 'https://connect.sensiolabs.com/profile/merorafael'
-                    }
-                ]
+                certifications: []
             };
+        },
+        created() {
+            if (certifications instanceof Array) {
+                this.certifications = certifications;
+            }
         }
     }
 </script>

@@ -37,69 +37,30 @@
 </template>
 
 <script>
+    import companies from '@/assets/data/companies';
     import moment from 'moment'
 
     export default {
         name: "jobs",
-        data: function() {
+        data() {
             return {
-                companies: [
-                    {
-                        company: {
-                            name: 'B2W Digital',
-                            logo: '/static/images/companies/b2w.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Team Leader',
-                                description: '',
-                                startDate: moment('06/2018', 'MM/YYYY'),
-                                endDate: null
-                            },
-                            {
-                                job: 'Software Developer',
-                                description: '',
-                                startDate: moment('01/2017', 'MM/YYYY'),
-                                endDate: moment('06/2018', 'MM/YYYY')
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'Fidelize',
-                            logo: '/static/images/companies/fidelize.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Senior Software Developer',
-                                description: '',
-                                startDate: moment('05/2016', 'MM/YYYY'),
-                                endDate: moment('12/2016', 'MM/YYYY')
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'Zoox Media & Connectivy',
-                            logo: '/static/images/companies/zoox.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Development Coordinator',
-                                description: '',
-                                startDate: moment('11/2014', 'MM/YYYY'),
-                                endDate: moment('05/2016', 'MM/YYYY')
-                            },
-                            {
-                                job: 'Software Developer',
-                                description: '',
-                                startDate: moment('09/2011', 'MM/YYYY'),
-                                endDate: moment('11/2014', 'MM/YYYY')
-                            }
-                        ]
-                    }
-                ]
+                companies: [],
             };
+        },
+        created() {
+            if (companies instanceof Array) {
+                companies.forEach((company) => {
+                    if (company.jobs instanceof Array) {
+                        for (let i = 0; i < company.jobs.length; i++) {
+                            company.jobs[i].startDate = moment(company.jobs[i].startDate, 'MM/YYYY');
+                            if (company.jobs[i].endDate) {
+                               company.jobs[i].endDate = moment(company.jobs[i].endDate, 'MM/YYYY');
+                            }
+                        }
+                    }
+                    this.companies.push(company);
+                });
+            }
         }
     }
 </script>
