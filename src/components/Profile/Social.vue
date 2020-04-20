@@ -10,32 +10,18 @@
     </div>
 </template>
 <script>
+    import profiles from '@/assets/data/social_profiles.json';
+
     export default {
-        data: function() {
+        data() {
             return {
-                profiles: [
-                    {
-                        name: 'GitHub',
-                        url: 'https://github.com/merorafael',
-                        icon: 'fab fa-github'
-                    },
-                    {
-                        name: 'LinkedIn',
-                        url: 'https://br.linkedin.com/in/merorafael',
-                        icon: 'fab fa-linkedin'
-                    },
-                    {
-                        name: 'Telegram',
-                        url: 'https://telegram.me/merorafael',
-                        icon: 'fab fa-telegram'
-                    },
-                    {
-                        name: 'Medium',
-                        url: 'https://medium.com/@merorafael',
-                        icon: 'fab fa-medium'
-                    }
-                ]
+                profiles: []
             };
+        },
+        created() {
+            if (profiles instanceof Array) {
+                this.profiles = profiles;
+            }
         }
     }
 </script>

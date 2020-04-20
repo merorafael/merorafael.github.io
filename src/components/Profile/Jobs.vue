@@ -37,12 +37,14 @@
 </template>
 
 <script>
+    import companies from '@/assets/data/companies';
     import moment from 'moment'
 
     export default {
         name: "jobs",
-        data: function() {
+        data() {
             return {
+<<<<<<< HEAD
                 companies: [
                     {
                         company: {
@@ -117,11 +119,25 @@
                                 description: '',
                                 startDate: moment('09/2011', 'MM/YYYY'),
                                 endDate: moment('11/2014', 'MM/YYYY')
-                            }
-                        ]
-                    }
-                ]
+=======
+                companies: [],
             };
+        },
+        created() {
+            if (companies instanceof Array) {
+                companies.forEach((company) => {
+                    if (company.jobs instanceof Array) {
+                        for (let i = 0; i < company.jobs.length; i++) {
+                            company.jobs[i].startDate = moment(company.jobs[i].startDate, 'MM/YYYY');
+                            if (company.jobs[i].endDate) {
+                               company.jobs[i].endDate = moment(company.jobs[i].endDate, 'MM/YYYY');
+>>>>>>> 4e4013986ce22f2ce95eee7e5cc85a647477b493
+                            }
+                        }
+                    }
+                    this.companies.push(company);
+                });
+            }
         }
     }
 </script>

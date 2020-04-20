@@ -18,23 +18,19 @@
 </template>
 
 <script>
+    import certifications from "@/assets/data/certifications";
+
     export default {
         name: "certificatons",
-        data: function() {
+        data() {
             return {
-                certifications: [
-                    {
-                        name: 'Symfony Commenter',
-                        icon: '/static/images/certifications/symfony_commenter.png',
-                        url: 'https://connect.sensiolabs.com/profile/merorafael'
-                    },
-                    {
-                        name: 'Symfony Documentation Contributor',
-                        icon: '/static/images/certifications/symfony_doc.png',
-                        url: 'https://connect.sensiolabs.com/profile/merorafael'
-                    }
-                ]
+                certifications: []
             };
+        },
+        created() {
+            if (certifications instanceof Array) {
+                this.certifications = certifications;
+            }
         }
     }
 </script>
