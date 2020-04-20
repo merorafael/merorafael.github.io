@@ -44,82 +44,6 @@
         name: "jobs",
         data() {
             return {
-<<<<<<< HEAD
-                companies: [
-                    {
-                        company: {
-                            name: 'M4U',
-                            logo: '/static/images/companies/m4u.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Software Engineer',
-                                description: '',
-                                startDate: moment('04/2020', 'MM/YYYY'),
-                                endDate: null
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'Ame Digital',
-                            logo: '/static/images/companies/ame.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Software Engineer',
-                                description: '',
-                                startDate: moment('01/2019', 'MM/YYYY'),
-                                endDate: moment('04/2020', 'MM/YYYY')
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'B2W Digital',
-                            logo: '/static/images/companies/b2w.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Software Engineer',
-                                description: '',
-                                startDate: moment('01/2017', 'MM/YYYY'),
-                                endDate: moment('04/2020', 'MM/YYYY')
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'Funcional Health Tech (Fidelize)',
-                            logo: '/static/images/companies/fidelize.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Senior Software Developer',
-                                description: '',
-                                startDate: moment('05/2016', 'MM/YYYY'),
-                                endDate: moment('12/2016', 'MM/YYYY')
-                            }
-                        ]
-                    },
-                    {
-                        company: {
-                            name: 'Zoox Media & Connectivy',
-                            logo: '/static/images/companies/zoox.png'
-                        },
-                        jobs: [
-                            {
-                                job: 'Development Coordinator',
-                                description: '',
-                                startDate: moment('11/2014', 'MM/YYYY'),
-                                endDate: moment('05/2016', 'MM/YYYY')
-                            },
-                            {
-                                job: 'Software Developer',
-                                description: '',
-                                startDate: moment('09/2011', 'MM/YYYY'),
-                                endDate: moment('11/2014', 'MM/YYYY')
-=======
                 companies: [],
             };
         },
@@ -131,7 +55,6 @@
                             company.jobs[i].startDate = moment(company.jobs[i].startDate, 'MM/YYYY');
                             if (company.jobs[i].endDate) {
                                company.jobs[i].endDate = moment(company.jobs[i].endDate, 'MM/YYYY');
->>>>>>> 4e4013986ce22f2ce95eee7e5cc85a647477b493
                             }
                         }
                     }
