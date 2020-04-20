@@ -24,9 +24,9 @@
             return {
                 certifications: [
                     {
-                        name: 'iMasters PHP Certified Professional',
-                        icon: '/static/images/certifications/imasters_php.png',
-                        url: 'https://certificacao.imasters.com.br/users/rafael-mello'
+                        name: 'Symfony Commenter',
+                        icon: '/static/images/certifications/symfony_commenter.png',
+                        url: 'https://connect.sensiolabs.com/profile/merorafael'
                     },
                     {
                         name: 'Symfony Documentation Contributor',

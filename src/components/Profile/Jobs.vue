@@ -46,27 +46,49 @@
                 companies: [
                     {
                         company: {
-                            name: 'B2W Digital',
-                            logo: '/static/images/companies/b2w.png'
+                            name: 'M4U',
+                            logo: '/static/images/companies/m4u.png'
                         },
                         jobs: [
                             {
-                                job: 'Team Leader',
+                                job: 'Software Engineer',
                                 description: '',
-                                startDate: moment('06/2018', 'MM/YYYY'),
+                                startDate: moment('04/2020', 'MM/YYYY'),
                                 endDate: null
-                            },
-                            {
-                                job: 'Software Developer',
-                                description: '',
-                                startDate: moment('01/2017', 'MM/YYYY'),
-                                endDate: moment('06/2018', 'MM/YYYY')
                             }
                         ]
                     },
                     {
                         company: {
-                            name: 'Fidelize',
+                            name: 'Ame Digital',
+                            logo: '/static/images/companies/ame.png'
+                        },
+                        jobs: [
+                            {
+                                job: 'Software Engineer',
+                                description: '',
+                                startDate: moment('01/2019', 'MM/YYYY'),
+                                endDate: moment('04/2020', 'MM/YYYY')
+                            }
+                        ]
+                    },
+                    {
+                        company: {
+                            name: 'B2W Digital',
+                            logo: '/static/images/companies/b2w.png'
+                        },
+                        jobs: [
+                            {
+                                job: 'Software Engineer',
+                                description: '',
+                                startDate: moment('01/2017', 'MM/YYYY'),
+                                endDate: moment('04/2020', 'MM/YYYY')
+                            }
+                        ]
+                    },
+                    {
+                        company: {
+                            name: 'Funcional Health Tech (Fidelize)',
                             logo: '/static/images/companies/fidelize.png'
                         },
                         jobs: [
