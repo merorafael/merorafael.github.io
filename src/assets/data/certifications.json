@@ -1,4 +1,15 @@
 [
+
+  {
+    "name": "Cybersecurity Essentials",
+    "icon": "/static/images/certifications/cisco.jpeg",
+    "url": "https://www.credly.com/badges/45bb27bf-9d0b-48db-a65d-62b5231a1a9f"
+  },
+  {
+    "name": "Vue - The Complete Guide",
+    "icon": "/static/images/certifications/udemy.jpeg",
+    "url": "https://www.udemy.com/certificate/UC-5b3346eb-1741-4757-a360-61ea44e71452/"
+  },
   {
     "name": "Symfony Commenter",
     "icon": "/static/images/certifications/symfony_commenter.png",
