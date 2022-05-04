@@ -1,6 +1,20 @@
 [
   {
     "company": {
+      "name": "CyberLabs",
+      "logo": "/static/images/companies/cyberlabs.jpeg"
+    },
+    "jobs": [
+      {
+        "job": "Software Engineer",
+        "description": "",
+        "startDate": "07/2020",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "company": {
       "name": "M4U",
       "logo": "/static/images/companies/m4u.png"
     },
