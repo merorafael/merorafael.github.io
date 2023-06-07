@@ -1,15 +1,29 @@
 [
   {
     "company": {
+      "name": "iFood",
+      "logo": "/static/images/companies/ifood.jpeg"
+    },
+    "jobs": [
+      {
+        "job": "Software Engineer",
+        "description": "One of the biggest food delivery companies in Brazil. Here, I'm on the development experience tribe, improving maintainability and developing new features in systems related to iFood Developers.",
+        "startDate": "08/2022",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "company": {
       "name": "CyberLabs",
       "logo": "/static/images/companies/cyberlabs.jpeg"
     },
     "jobs": [
       {
         "job": "Software Engineer",
-        "description": "",
-        "startDate": "07/2020",
-        "endDate": null
+        "description": "A company focused on IA and security. I create APIs using microservice architecture to integrate with IA(Torch Server) systems to distribute features related to face recognition.",
+        "startDate": "08/2021",
+        "endDate": "09/2022"
       }
     ]
   },
@@ -21,7 +35,7 @@
     "jobs": [
       {
         "job": "Software Engineer",
-        "description": "",
+        "description": "A company focused on telephony facilities. My work here was improving maintainability and developing new features for the payment systems.",
         "startDate": "04/2020",
         "endDate": "06/2021"
       }
@@ -35,7 +49,7 @@
     "jobs": [
       {
         "job": "Software Engineer",
-        "description": "",
+        "description": "A B2W(currently Americanas SA) company. Tribe focused on PDV for the Americanas stores, using events architecture to synchronize data between PDV and cloud services.",
         "startDate": "01/2019",
         "endDate": "04/2020"
       }
@@ -49,7 +63,7 @@
     "jobs": [
       {
         "job": "Software Engineer",
-        "description": "",
+        "description": "One of the biggest retail companies in Brazil, currently Americanas SA. I worked in some systems focused on retail business, such as supplier payment anticipation, supplier portal, document assignment and other focused systems on payment.",
         "startDate": "01/2017",
         "endDate": "04/2020"
       }
@@ -86,6 +100,20 @@
         "description": "",
         "startDate": "09/2011",
         "endDate": "11/2014"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Observatório Nacional",
+      "logo": "/static/images/companies/on.jpeg"
+    },
+    "jobs": [
+      {
+        "job": "Intern",
+        "description": "A federal institution focused on astronomy. Developed some hot-sites for ON projects.",
+        "startDate": "01/2009",
+        "endDate": "06/2009"
       }
     ]
   }
