@@ -1,0 +1,120 @@
+[
+  {
+    "company": {
+      "name": "iFood",
+      "logo": "/images/companies/ifood.jpeg"
+    },
+    "positions": [
+      {
+        "title": "Staff Software Engineer",
+        "description": "The leading food delivery company in Brazil, my focus is on planning and providing systems for iFood's developers.\n\nMy duties include:\n\n- Making systems for iFood's developers to use during software delivery;\n- Providing a custom canary system integrated with Datadog and Kubernetes for auto-abort, auto-promotion and company guardrails;\n- Helping other developers with design patterns, architecture, tests and delivery;\n- Helping in the team management, scheduling events (such as task refinements, retrospectives, daily meetings, etc);\n- Evaluating project necessities, planning features, delivery estimation, guardrails, user experience and usage monitoring.\n\nMain technologies:\n\n- GoLang, Java 17+\n- Spring Framework, Echo Framework\n- PostgreSQL\n- Docker\n- Kubernetes, Helm and Argo Rollouts\n- CI/CD using GitLab CI",
+        "startDate": "08/2022",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "CyberLabs",
+      "logo": "/images/companies/cyberlabs.jpeg"
+    },
+    "positions": [
+      {
+        "title": "Software Engineer",
+        "description": "A company focused on Artificial Intelligence, Cyber Security and Insurance. As a software engineer, I was responsible for creating RESTful API systems to provide functionalities for the company's clients, discussing technical necessities (architecture, patterns, behaviours), analysing the viability of requested features and estimating development time.\n\nMain technologies:\n\n- Java 11+, GoLang, JavaScript and Python\n- Spring Framework, Gin\n- MongoDB\n- Docker\n- GitLab for CI/CD\n- AWS API Gateway, Lambda, CloudFront\n- Terraform",
+        "startDate": "08/2021",
+        "endDate": "09/2022"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "M4U",
+      "logo": "/images/companies/m4u.png"
+    },
+    "positions": [
+      {
+        "title": "Software Engineer",
+        "description": "Company focused on payments, whose main clients were Brazilian carriers.\n\nSoftware developer experienced in the latest technologies and software architectures with emphasis on PCI-DSS requirements for payment systems.\n\nMain technologies:\n\n- Java 11+, JavaScript\n- Spring Framework, Vue, React, Stencil\n- SQL Server, PostgreSQL\n- Docker\n- BitBucket pipelines para CI/CD\n- API Gateway, Lambda, SQS, CloudFront, S3\n- Terraform, SAM (Serverless Application Model)\n- PCI-DSS compliance",
+        "startDate": "04/2020",
+        "endDate": "06/2021"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Ame Digital",
+      "logo": "/images/companies/ame.png"
+    },
+    "positions": [
+      {
+        "title": "Software Engineer",
+        "description": "Created from B2W Digital before merging with Lojas Americanas (one of the biggest retail sellers in Brazil), the company was responsible for digital wallets and portable and fixed POS (point of sale) systems.\n\nMy duties included:\n\n- Providing new payment features on the fixed POS system, integrating new TEF (a payment system with a physical card) partners using their C library files with Node.js V8 engine, to control pinpad devices;\n- Providing new server-side payment features with fail-safe architecture (asynchronous processes) using AWS services (Lambda, API Gateway, SNS, SQS, DynamoDB, CloudFormation);\n- Architecting an update system for fixed POS using WebSocket (monitoring POS status in real-time), implementing a patch update system and a private P2P network to download updates from other POS machines at the same place;\n- Helping other developers with design patterns, architecture, tests and delivery;\n- Helping in the team management, scheduling events (such as task refinements, retrospectives, daily meetings, etc);\n- Evaluating project necessities, planning features, delivery estimation, guardrails, user experience and usage monitoring.\n\nMain technologies:\n\n- Java 8+, Groovy, JavaScript, TypeScript, Go, C++\n- Spring Framework, Grails, AngularJS, Electron, Gradle\n- WebSocket, P2P private network, MQTT\n- Custom C++ modules for Node.js\n- MongoDB e DynamoDB\n- Docker\n- API Gateway, Lambda, SNS, SQS, S3, ElastiCache, CloudFormation\n- Bamboo and GitLab for CI/CD",
+        "startDate": "01/2019",
+        "endDate": "04/2020"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "B2W Digital",
+      "logo": "/images/companies/b2w.png"
+    },
+    "positions": [
+      {
+        "title": "Software Engineer",
+        "description": "This company owns Americanas.com, Submarino, and Shoptime, some of the biggest Brazilian e-commerce platforms.\n\nResponsible for creating, maintaining and improving some LASA(Lojas Americanas S.A., the owner of B2W Digital) systems. The primary public project was the \"Portal dos Fornecedores\", a front office that integrated all businesses with LASA's suppliers.\n\nMain technologies:\n\n- Java 8, Groovy, PHP and JavaScript\n- Spring Framework, Grails, Laravel, Bootstrap, Angular JS and Vue.JS\n- MongoDB\n- Docker\n- WebLogic\n- Bamboo for CI/CD",
+        "startDate": "01/2017",
+        "endDate": "04/2020"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Funcional Health Tech (Fidelize)",
+      "logo": "/images/companies/fidelize.png"
+    },
+    "positions": [
+      {
+        "title": "Senior Software Developer",
+        "description": "This company focuses on products for the pharmaceutical industry, distributors, and pharmacies.\n\nMy duties included:\n\n- Maintaining critical systems of the company's business;\n- Refactoring legacy systems (PHP 4) for new systems using strong architectural patterns, as well as new versions of the required technologies and writing tests (unit and integration tests);\n- Helping other developers with design patterns, architecture, tests and delivery.\n\nAt this time, I created an open-source library called \"yii-monolog.\" This library integrates Monolog (a PHP log library) with the Yii Framework using PSR-3.\n\nMain technologies:\n\n- PHP 5.4~7.x\n- Yii 1 and Yii 2 frameworks\n- EDI integrations\n- RESTful APIs\n- Docker",
+        "startDate": "05/2016",
+        "endDate": "12/2016"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Zoox Media & Connectivy",
+      "logo": "/images/companies/zoox.png"
+    },
+    "positions": [
+      {
+        "title": "Tech Lead",
+        "description": "I had meetings with the company directors to make delivery strategies and showed complexity about the new features requested.\n\nI used to lead a development team using agile culture with Scrum, encouraging pair-programming to increase the team's knowledge, including a strong code-review between the developers.\n\nMoreover, I continued to develop systems using the characteristics below.",
+        "startDate": "11/2014",
+        "endDate": "05/2016"
+      },
+      {
+        "title": "Software Developer",
+        "description": "A company with hotel connectivity focused.\n\nMain technologies:\n\n- PHP, JavaScript\n- CakePHP, Symfony, Zend Framework, Cordova(seems PhoneGap, but open-source)\n- Docker\n- ElasticBeanstalk, RDS, S3\n- Integrations with FreeRADIUS and MikroTik devices\n\nThe main project was software for hotspot connectivity. This project uses the main frameworks for PHP. It established a VPN connection with MikroTik devices and management how and when can connected to the internet.",
+        "startDate": "09/2011",
+        "endDate": "11/2014"
+      }
+    ]
+  },
+  {
+    "company": {
+      "name": "Observatório Nacional",
+      "logo": "/images/companies/on.jpeg"
+    },
+    "positions": [
+      {
+        "title": "Intern",
+        "description": "It's a federal government organisation responsible for research in astronomy and geophysics.\n\nHere, I created some internal event sites. I learned Python and helped the developers with some implementations.\n\nMain technologies used:\n\n- PHP, Python\n- HTML, CSS, JavaScript, jQuery\n- PostgreSQL\n",
+        "startDate": "01/2009",
+        "endDate": "06/2009"
+      }
+    ]
+  }
+]

@@ -1,29 +1,25 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div class="bg-gray-200 relative min-h-screen print:text-sm">
+    <profile-header />
+    <nav-bar :sections="['about', 'experience', 'certifications', 'education']"/>
+    <main class="container mx-auto pt-5 text-gray-800 max-w-250 px-4 lg:px-0">
+      <section-about />
+      <section-experience />
+      <section-certifications />
+      <section-education />
+    </main>
   </div>
 </template>
-<script>
-  import Profile from "./components/Profile";
 
-  export default {
-    name: 'App',
-    components: {Profile}
-  }
+<script setup lang="ts">
+import ProfileHeader from "@/components/ProfileHeader.vue"
+import NavBar from "@/components/NavBar.vue"
+import SectionAbout from "@/views/SectionAbout.vue";
+import SectionExperience from "@/views/SectionExperience.vue";
+import SectionCertifications from "@/views/SectionCertifications.vue";
+import SectionEducation from "@/views/SectionEducation.vue";
+
 </script>
-<style>
-  html, body {
-    height: 100%;
-  }
 
-  body {
-    background-color: #EFEFEF;
-    animation-name: fadeIn;
-    animation-duration: 800ms;
-    animation-fill-mode: both;
-  }
-
-  #app {
-    padding-top: 20px;
-  }
+<style scoped>
 </style>

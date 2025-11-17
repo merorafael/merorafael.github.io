@@ -1,0 +1,22 @@
+[
+  {
+    "course": "Computer Science",
+    "degree": "Bachelor's degree",
+    "organization": {
+      "name": "UniCarioca",
+      "logo": "/images/education/unicarioca.jpeg"
+    },
+    "startDate": "01/2018",
+    "endDate": "06/2022"
+  },
+  {
+    "course": "Vue The Complete Guide",
+    "degree": "Online Course",
+    "organization": {
+      "name": "Udemy",
+      "logo": "/images/education/udemy.jpeg"
+    },
+    "endDate": "01/2021",
+    "certification": "https://www.udemy.com/certificate/UC-5b3346eb-1741-4757-a360-61ea44e71452/"
+  }
+]
