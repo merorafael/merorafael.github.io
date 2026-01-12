@@ -8,7 +8,7 @@
            :class="['px-3', 'py-2', 'rounded-md', 'transition-colors',
              activeSession === section ? ['text-white', 'font-bold'] : ['text-gray-300',  'hover:bg-gray-600', 'hover:text-white']]"
            @click="updateSession(section)"
-        >{{ section }}</a>
+        >{{ section.replace('-', ' ') }}</a>
       </div>
     </div>
   </nav>
