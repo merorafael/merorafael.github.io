@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 relative min-h-screen print:text-sm">
+  <div class="bg-gray-200 relative min-h-screen print:text-base">
     <profile-header />
     <nav-bar :sections="['about', 'main-skills', 'experience', 'certifications', 'education']"/>
     <main class="container mx-auto pt-5 text-gray-800 max-w-250 px-4 lg:px-0">

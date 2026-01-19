@@ -1,7 +1,7 @@
 <template>
   <section-template title="Main Skills">
     <div class="whitespace-pre-line">
-      <ul class="flex flex-col items-center justify-start flex-wrap list-disc list-inside h-25 print:h-20">
+      <ul class="flex flex-col items-center justify-start flex-wrap list-disc list-inside h-25 print:h-25">
         <li
           class="w-80"
           v-for="skill in skills"
