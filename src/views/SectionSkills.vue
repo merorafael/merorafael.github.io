@@ -1,9 +1,9 @@
 <template>
   <section-template title="Main Skills">
     <div class="whitespace-pre-line">
-      <ul class="flex sm:flex-col print:flex-col items-center justify-start flex-wrap list-disc list-inside sm:h-40 md:h-25 print:h-25">
+      <ul class="flex sm:flex-col print:flex-col items-center justify-start flex-wrap list-disc list-inside sm:h-40 lg:h-25 print:h-25">
         <li
-          class="w-80"
+          class="w-80 overflow-hidden"
           v-for="skill in skills"
           :key="skill">
           {{ skill }}
