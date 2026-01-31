@@ -1,8 +1,8 @@
 <template>
-  <header class="bg-gray-900 text-gray-300 print:text-gray-800 px-3 not-md:px-0 md:py-10">
+  <header class="bg-gray-900 text-gray-300 print:text-gray-800 px-10 not-md:px-0 md:py-10">
     <div class="container mx-auto max-w-250">
       <div class="mx-auto py-5 md:py-0 print:py-0">
-        <img v-if="photo" :src="photo" class="rounded-full w-40 md:w-60 print:w-30 print:ml-5 not-md:not-print:mx-auto" alt="Photo"/>
+        <img v-if="photo" :src="photo" class="rounded-full w-40 md:w-50 lg:w-60 print:w-30 print:ml-5 not-md:not-print:mx-auto" alt="Photo"/>
         <div class="flex flex-col md:flex-row print:flex-row print:justify-between md:justify-between">
           <div class="mt-5 not-md:px-5">
             <h1 class="font-bold text-3xl md:text-4xl">{{ name }}</h1>
